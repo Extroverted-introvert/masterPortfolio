@@ -28,23 +28,33 @@
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
+  text-align: center;
 }
 
 .greeting-text {
-  margin-top: 80px;
+  margin-top: 20px;
   font-size: 70px;
   line-height: 1.1;
-  font-family: "Google Sans Bold";
-}
-
-.greeting-nickname {
-  font-size: 30px;
-  line-height: 0px;
+  margin-bottom: 20px;
   font-family: "Google Sans Bold Italic";
 }
 
-.greeting-text-p {
+.greeting-name {
   font-size: 40px;
+  line-height: 0px;
+  font-family: "Google Sans Bold";
+}
+
+.greeting-typewriter {
+  margin-top: 30px;
+  font-size: 30px;
+  margin-bottom: 40px;
+  line-height: 0px;
+  font-family: "Google Sans Regular";
+}
+
+.greeting-text-p {
+  font-size: 18px;
   line-height: 40px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
@@ -69,12 +79,18 @@
     justify-content: space-around;
   }
   .greeting-text {
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 0px;
     text-align: center;
   }
-  .greeting-nickname {
+  .greeting-name {
     font-size: 25px;
+    text-align: center;
+  }
+  .greeting-typewriter {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 40px;
     text-align: center;
   }
   .greeting-text-p {
@@ -88,8 +104,82 @@
   }
 
   .portfolio-repo-btn-div {
-    width: 100%;
+    justify-content: space-around;
     display: flex;
-    justify-content: center;
+    margin-top: 10;
   }
+}
+.entities {
+  line-height: 2;
+}
+
+[data-entity] {
+  padding: 0.25em 0.35em;
+  margin: 0px 0.25em;
+  line-height: 1;
+  display: inline-block;
+  border-radius: 0.25em;
+  border: 1px solid;
+}
+
+[data-entity]::after {
+  box-sizing: border-box;
+  content: attr(data-entity);
+  font-size: 0.6em;
+  line-height: 1;
+  padding: 0.35em;
+  border-radius: 0.35em;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 0px 0.1rem 0.5rem;
+}
+
+[data-entity][data-entity="noun"] {
+  background: rgba(166, 226, 45, 0.2);
+  border-color: rgb(166, 226, 45);
+}
+[data-entity][data-entity="noun"]::after {
+  background: rgb(166, 226, 45);
+  color: rgb(255, 255, 255);
+}
+
+[data-entity][data-entity="person"] {
+  background: rgba(45, 226, 217, 0);
+  border-color: rgb(45, 226, 141);
+}
+
+[data-entity][data-entity="person"]::after {
+  background: rgb(45, 226, 141);
+  color: rgb(0, 0, 0);
+}
+
+[data-entity][data-entity="skill"] {
+  background: rgb(187, 47, 117, 0.2);
+  border-color: rgb(187, 47, 117);
+}
+
+[data-entity][data-entity="skill"]::after {
+  background: rgb(187, 47, 117);
+  color: rgb(255, 255, 255);
+}
+
+[data-entity][data-entity="freelance"] {
+  background: rgb(187, 161, 47, 0.2);
+  border-color: rgb(187, 161, 47);
+}
+
+[data-entity][data-entity="freelance"]::after {
+  background: rgb(187, 161, 47);
+  color: rgb(255, 255, 255);
+}
+
+[data-entity][data-entity="verb"] {
+  background: rgba(47, 187, 171, 0.2);
+  border-color: rgb(47, 187, 171);
+}
+
+[data-entity][data-entity="verb"]::after {
+  background: rgb(21, 124, 112);
+  color: rgb(255, 255, 255);
 }

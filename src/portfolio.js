@@ -7,20 +7,21 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Parth's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Parth Tripathi Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://parthtripathi.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
+  greet: "Namaste!",
+  title: "Parth Tripathi",
+  logo_name: "Parth Tripathi",
   nickname: "layman_brother",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
@@ -124,6 +125,28 @@ const skills = {
             color: "#3776AB",
           },
         },
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "NumPy",
+          fontAwesomeClassname: "logos-numpy",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Tableau",
+          fontAwesomeClassname: "logos-tableau",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
       ],
     },
     {
@@ -135,6 +158,13 @@ const skills = {
         "⚡ Creating application backend in Node, Express & Flask",
       ],
       softwareSkills: [
+        {
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -150,10 +180,10 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "jinja",
+          fontAwesomeClassname: "simple-icons:jinja",
           style: {
-            color: "#CC6699",
+            color: "#663399",
           },
         },
         {
@@ -162,48 +192,6 @@ const skills = {
           style: {
             backgroundColor: "#000000",
             color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
           },
         },
       ],
@@ -240,10 +228,10 @@ const skills = {
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Watson",
+          fontAwesomeClassname: "simple-icons:ibmwatson",
           style: {
-            color: "#FFCA28",
+            color: "#326CE5",
           },
         },
         {
@@ -276,45 +264,46 @@ const skills = {
         },
       ],
     },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
+    // Use for adding more techstacks
+    // {
+    //   title: "UI/UX Design",
+    //   fileName: "DesignImg",
+    //   skills: [
+    //     "⚡ Designing highly attractive user interface for mobile and web applications",
+    //     "⚡ Customizing logo designs and building logos from scratch",
+    //     "⚡ Creating the flow of application functionalities to optimize user experience",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Adobe XD",
+    //       fontAwesomeClassname: "simple-icons:adobexd",
+    //       style: {
+    //         color: "#FF2BC2",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Figma",
+    //       fontAwesomeClassname: "simple-icons:figma",
+    //       style: {
+    //         color: "#F24E1E",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Adobe Illustrator",
+    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
+    //       style: {
+    //         color: "#FF7C00",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Inkscape",
+    //       fontAwesomeClassname: "simple-icons:inkscape",
+    //       style: {
+    //         color: "#000000",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -361,6 +350,108 @@ const competitiveSites = {
       },
       profileLink: "https://www.kaggle.com/laymanbrother",
     },
+  ],
+};
+const resumeleft = {
+  left: {
+    title: ["Experience"],
+    data: [
+      {
+        title: "Jr. Machine Learning",
+        subtitle: "Thinkbiz Technology Pvt. Ltd.",
+        date: "May 2020 - Present",
+        content: [
+          "Used T5 Transformer Model to build a Question Answering Model which generates questions based on Keywords extracted (WordNet, Sense2Vec) from studyshot notes.",
+          "Built an MCQ Generation model using BERT",
+          "Developed a personalized Chatbot using Rasa (Botfront.io).",
+          "Created an Automatic Thumbnail Generator & Uploader for our youtube videos using Youtube v3 API",
+          "Working on OpenAI's semantic search engine.",
+          "Created a Clean MaterialUI Design for prototyping and design fixing before production-ready of APP",
+          "Created FrontEnd components for StudyShot website",
+          "Working on recommendation system for concept notes and questions based on student's behavior on our Flutter App(tracking)",
+        ],
+      },
+      {
+        title: "Machine Learning Intern",
+        subtitle: "DRM Office, Western Central Railway",
+        date: "June 2019 - July 2019",
+        content: [
+          "My role at Listnr included a lot of research work about Audio Encoders and Vocoders and Speech Synthesis in general.",
+          "Worked on some SOTA Inference TTS Models such as TacoTron2, FastSpeech2, and Wavenet.",
+          "Also had hands-on with real-time voice cloning algorithm.",
+        ],
+      },
+      {
+        title: "Data Science Intern",
+        subtitle: "Intec Infotec",
+        date: "June 2018 - July 2018",
+        content: [
+          "Phase 1 included Data Cleaning & Data Annotation for object detection task",
+          "Used YOLO v5 for Fire Detection Project",
+        ],
+      },
+    ],
+  },
+};
+
+const resumeright = {
+  right: [
+    {
+      title: ["Education"],
+      data: [
+        {
+          title: "Bachelor of Engineering in Information Technology",
+          subtitle: "Jabalpur Engineering College, Jabalpur",
+          date: "2016 - 2020",
+          content: ["CGPA: 7.49"],
+        },
+        {
+          title: "Higher Secondary Certificate [HSC]",
+          subtitle: "New Digamber Public School, Indore",
+          date: "2013 - 2015",
+          content: ["Precentage: 87.4%"],
+        },
+      ],
+    },
+    {
+      title: ["Ranks and Achivements"],
+      data: [
+        {
+          title: "Ranks",
+          content: [
+            "#135/854 in Summer Analytics Kaggle Competition by IITG",
+            "#113/5064 in CV-NLP Hackathon by HackerEarth",
+          ],
+        },
+        {
+          title: "Achievements",
+          content: [
+            "Winner IIT-Bombay 2020 Techfest - Dremio Buisness Insight",
+            "Winner (Complex Problem) Smart India Hackathon-2019",
+            "Founding Member of JEC Literary Club",
+          ],
+        },
+      ],
+    },
+    // {
+    //   title: ["Freelance Work"],
+    //   data: [
+    //     {
+    //       title: "Consultancy Website",
+    //       subtitle: "kidsworldeducationconsultants.com",
+    //       content: [
+    //         "Created and hosted a website for consultancy providers in Kids Education Domain",
+    //       ],
+    //     },
+    //     {
+    //       title: "Portfolio Website",
+    //       subtitle: "pranavphulware.netlify.app",
+    //       content: [
+    //         "Built a personal Filmography portfolio for a friend and later hosted it at Netlify",
+    //       ],
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -421,7 +512,7 @@ const certifications = {
       color_code: "#1F70C199",
     },
     {
-      title: "Big Data",
+      title: "Big Data Parth",
       subtitle: "- Kim Akers",
       logo_path: "microsoft_logo.png",
       certificate_link:
@@ -645,7 +736,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "profile_pic.jpg",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
@@ -673,6 +764,8 @@ export {
   settings,
   seo,
   greeting,
+  resumeleft,
+  resumeright,
   socialMediaLinks,
   skills,
   competitiveSites,

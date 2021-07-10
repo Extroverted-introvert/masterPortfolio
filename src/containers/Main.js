@@ -37,7 +37,7 @@ export default class Main extends Component {
                 )}
               />
               <Route
-                path="/education"
+                path="/experience_education"
                 render={(props) => (
                   <Education {...props} theme={this.props.theme} />
                 )}

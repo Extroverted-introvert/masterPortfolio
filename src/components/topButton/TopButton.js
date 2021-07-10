@@ -56,8 +56,8 @@ export default function TopButton({ theme }) {
         border: `solid 1px ${theme.text}`,
       }}
       title="Go up"
-      onMouseEnter={() => onMouseEnter(theme.text, theme.body)}
-      onMouseLeave={() => onMouseLeave(theme.body, theme.text)}
+      onMouseEnter={() => onMouseEnter(theme.text, theme.button_color)}
+      onMouseLeave={() => onMouseLeave(theme.button_color, theme.text)}
     >
       <i class="fas fa-arrow-up" id="arrow" aria-hidden="true" />
     </div>
