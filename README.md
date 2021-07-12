@@ -181,4 +181,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 # References 👏🏻
 
-- Some Design and Implementation Ideas are taken from [Ashutosh Hathidara's Portfolio Project](https://github.com/ashutosh1919/masterPortfolio) & [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio)
+- This project extends Design and Implementation Ideas taken from [Ashutosh Hathidara's Portfolio Project](https://github.com/ashutosh1919/masterPortfolio), [Rohan Kokkula's Datafolio Project](https://github.com/rohankokkula/datasciencefolio) and [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio)
+- Sincere thanks to all of them
+- Spread the Opensource love !!
