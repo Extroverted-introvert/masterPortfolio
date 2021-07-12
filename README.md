@@ -126,7 +126,7 @@ So basically I demonstrated 2 types of visual graphics.
 
 ### Splash Logo
 
-Note here that if you click [my portfolio](https://rohankokkula.netlify.app), you can see the logo at the beginning.
+Note here that if you click [my portfolio](https://parthtripathi.netlify.app/), you can see the logo at the beginning.
 
 - You can open `src/portfolio.js` file and at the top of this file you will see `settings` component as below:
 - ```python
@@ -181,6 +181,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 # References 👏🏻
 
-- This project extends Design and Implementation Ideas taken from [Ashutosh Hathidara's Portfolio Project](https://github.com/ashutosh1919/masterPortfolio), [Rohan Kokkula's Datafolio Project](https://github.com/rohankokkula/datasciencefolio) and [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio)
+- This project extends Design and Implementation Ideas taken from [Ashutosh Hathidara's Portfolio Project](https://github.com/ashutosh1919/masterPortfolio) and [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio)
 - Sincere thanks to all of them
 - Spread the Opensource love !!
