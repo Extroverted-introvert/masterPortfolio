@@ -145,7 +145,7 @@ Note here that if you click [my portfolio](https://rohankokkula.netlify.app), yo
 - Follow these resources for seamless setup
   - [Easy Google Analytics 4 Setup 2021](https://www.youtube.com/watch?v=dPYx-eS4gyE)
   - [Track Users In Your React App With Google Analytics](https://www.youtube.com/watch?v=pBeKlQ6CMJM)
-- You'll be needing a Trackin-ID for your website which normally looks like `UA-199564465-1`
+- You'll be needing a Trackin-ID for your website which normally looks like `UA-201944596-1`
 - Do not get confused between Tracking-ID & Measurement ID. Both are Different.
 - Once you get the tracking ID, go to `src/App.js` and replace your tracking ID
   Note: Do not use Firefox Browser for testing the ID. Use Chrome instead.
