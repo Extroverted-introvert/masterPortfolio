@@ -22,12 +22,12 @@ const greeting = {
   greet: "Namaste!",
   title: "Parth Tripathi",
   logo_name: "Parth Tripathi",
-  nickname: "layman_brother",
+  // nickname: "layman_brother",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+    "https://drive.google.com/file/d/1cyMzKjRDwFDRQgB9WLq3jqbUXjVXJZAs/view?usp=sharing",
+  // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
 };
 
 const socialMediaLinks = [
@@ -42,43 +42,43 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/Extroverted-introvert",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+    link: "www.linkedin.com/in/parthtripathi17",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+  // {
+  //   name: "YouTube",
+  //   link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
+  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  // },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:parth.tripathi17@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/ParthTripathi17",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/parth.tripathi17",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/parth_tripathi17/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -153,9 +153,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building resposive website front end using Javascript",
+        "⚡ Creating application backend in Django and Flask",
+        "⚡ Building full stack applications with database integration",
       ],
       softwareSkills: [
         {
@@ -197,12 +197,12 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud Development",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ Deploying deep learning models on cloud ",
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
@@ -310,46 +310,46 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+    // {
+    //   siteName: "HackerRank",
+    //   iconifyClassname: "simple-icons:hackerrank",
+    //   style: {
+    //     color: "#2EC866",
+    //   },
+    //   profileLink: "https://www.hackerrank.com/layman_brother",
+    // },
+    // {
+    //   siteName: "Codechef",
+    //   iconifyClassname: "simple-icons:codechef",
+    //   style: {
+    //     color: "#5B4638",
+    //   },
+    //   profileLink: "https://www.codechef.com/users/ashutosh_1919",
+    // },
+    // {
+    //   siteName: "Codeforces",
+    //   iconifyClassname: "simple-icons:codeforces",
+    //   style: {
+    //     color: "#1F8ACB",
+    //   },
+    //   profileLink: "http://codeforces.com/profile/layman_brother",
+    // },
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
+    //   },
+    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
+    // },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
+    //   },
+    //   profileLink: "https://www.kaggle.com/laymanbrother",
+    // },
   ],
 };
 const resumeleft = {
@@ -361,34 +361,37 @@ const resumeleft = {
         subtitle: "Thinkbiz Technology Pvt. Ltd.",
         date: "May 2020 - Present",
         content: [
-          "Used T5 Transformer Model to build a Question Answering Model which generates questions based on Keywords extracted (WordNet, Sense2Vec) from studyshot notes.",
-          "Built an MCQ Generation model using BERT",
-          "Developed a personalized Chatbot using Rasa (Botfront.io).",
-          "Created an Automatic Thumbnail Generator & Uploader for our youtube videos using Youtube v3 API",
-          "Working on OpenAI's semantic search engine.",
-          "Created a Clean MaterialUI Design for prototyping and design fixing before production-ready of APP",
-          "Created FrontEnd components for StudyShot website",
-          "Working on recommendation system for concept notes and questions based on student's behavior on our Flutter App(tracking)",
+          "Developed a state-of-art software solution responsible for processing Electricity Invoice PDFs from leading Japanese Electricity, Publication and Tele-Communication organizations.",
+          "Developed and improved an in-house Japanese Invoice recognition and processing software based on RCNN model.",
+          "Worked extensively to create Japanese NLP projects from scratch, ranging from NER(Named Entity recognition) to Transformer based Question-Answering module.",
+          "Developed a Django based CRUD supported platform to demonstrate various Data Science methodologies.",
         ],
+        //         Developed a Django based platform to demonstrate various Data Science methodologies.
+        // Worked extensively on Japanese NLP projects, ranging from NER(Named Entity recognition) to Transformer based Question-Answering module.
+        // Worked on an in-house Japanese Invoice recognition and processing software based on RCNN model.
+        // Developed a software solution responsible for processing Electricity Invoice PDFs from leading Japanese organizations.
       },
       {
-        title: "Machine Learning Intern",
+        title: "Data Analyst Intern",
         subtitle: "DRM Office, Western Central Railway",
         date: "June 2019 - July 2019",
         content: [
-          "My role at Listnr included a lot of research work about Audio Encoders and Vocoders and Speech Synthesis in general.",
-          "Worked on some SOTA Inference TTS Models such as TacoTron2, FastSpeech2, and Wavenet.",
-          "Also had hands-on with real-time voice cloning algorithm.",
+          "Worked on Data from railway maintained Track Management System to generate clear Visual insights on Data Statistics.",
+          "Developed a machine Learning model using above data to facilitate maintenance scheduling of railway tracks.",
         ],
+        //         Worked on Data from in-house maintained Track Management System to generate clear visual insights on Data Statistics.
+        // Developed a machine Learning model using above data to facilitate maintenance scheduling of railway tracks.
       },
       {
         title: "Data Science Intern",
         subtitle: "Intec Infotec",
         date: "June 2018 - July 2018",
         content: [
-          "Phase 1 included Data Cleaning & Data Annotation for object detection task",
-          "Used YOLO v5 for Fire Detection Project",
+          "Learned various Software Lifecycles and Detailed Testing procedures of Software Development.",
+          "Used the skills learned to create a DBMS for HelpDesk Management.",
         ],
+        //         Learned various Software Lifecycles and Detailed Testing procedures of Software Development.
+        // Used the skills learned to create a DBMS for HelpDesk Management.
       },
     ],
   },
@@ -403,26 +406,29 @@ const resumeright = {
           title: "Bachelor of Engineering in Information Technology",
           subtitle: "Jabalpur Engineering College, Jabalpur",
           date: "2016 - 2020",
-          content: ["CGPA: 7.49"],
+          content: ["Graduated with First Class Distinction", "CGPA: 7.49"],
         },
         {
           title: "Higher Secondary Certificate [HSC]",
           subtitle: "New Digamber Public School, Indore",
           date: "2013 - 2015",
-          content: ["Precentage: 87.4%"],
+          content: [
+            "Higher Secondary Certificate [HSC] : Precentage: 87.4%",
+            "Secondary School Certificate [HSC] : CGPA: 9.4",
+          ],
         },
       ],
     },
     {
-      title: ["Ranks and Achivements"],
+      title: ["Achievements"],
       data: [
-        {
-          title: "Ranks",
-          content: [
-            "#135/854 in Summer Analytics Kaggle Competition by IITG",
-            "#113/5064 in CV-NLP Hackathon by HackerEarth",
-          ],
-        },
+        // {
+        //   title: "Ranks",
+        //   content: [
+        //     "#135/854 in Summer Analytics Kaggle Competition by IITG",
+        //     "#113/5064 in CV-NLP Hackathon by HackerEarth",
+        //   ],
+        // },
         {
           title: "Achievements",
           content: [
@@ -457,31 +463,31 @@ const resumeright = {
 
 const degrees = {
   degrees: [
-    {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
-      descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
-      ],
-      website_link: "http://iiitk.ac.in",
-    },
+    // {
+    //   title: "Indian Institute of Information Technology Kurnool",
+    //   subtitle: "B.Tech. in Computer Engineering",
+    //   logo_path: "iiitk_logo.png",
+    //   alt_name: "IIITDM Kurnool",
+    //   duration: "2016 - Present",
+    //   descriptions: [
+    //     "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+    //     "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+    //     "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+    //   ],
+    //   website_link: "http://iiitk.ac.in",
+    // },
   ],
 };
 
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "Python For Everbody",
+      subtitle: "- Charles Severance",
+      logo_path: "University-of-Michigan-Logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+        "https://coursera.org/share/b5ad328bff59b6ca2de460dc827155b6",
+      alt_name: "University of Michigan",
       color_code: "#8C151599",
     },
     {
@@ -489,35 +495,44 @@ const certifications = {
       subtitle: "- Andrew Ng",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "https://coursera.org/share/62a9a86bd315ff20e5cca1619049e62e",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
+      title: "From Data to Insights with Google Cloud Platform",
       subtitle: "- GCP Training",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+        "https://coursera.org/share/91e2c69184158064150e327ad178771b",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
     {
+      title: "AI for Medicine",
+      subtitle: "- Pranav Rajpurkar",
+      logo_path: "deeplearning_ai_logo.png",
+      certificate_link:
+        "https://coursera.org/share/7e235691890e4701920470d87515267e",
+      alt_name: "deeplearning.ai",
+      color_code: "#00000099",
+    },
+    {
       title: "Data Science",
-      subtitle: "- Alex Aklson",
+      subtitle: "- Rav Ahuja",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+        "https://coursera.org/share/a0a0a8e8f37533c917745e8ae03515e3",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
     {
-      title: "Big Data Parth",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "AWS Fundamentals",
+      subtitle: "- Amazon Web Services",
+      logo_path: "aws.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
+        "https://coursera.org/share/badcd5b90e11747538ac89a6d247debd",
+      alt_name: "Amazon Web Services",
       color_code: "#D83B0199",
     },
     {
@@ -525,63 +540,18 @@ const certifications = {
       subtitle: "- Romeo Kienzler",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
+        "https://coursera.org/share/8d1444a90fdddad4e3e5e7174e1e4fdd",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
     {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Business English Communication Skills",
+      subtitle: "- University of Washington",
+      logo_path: "university-of-washington.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
+        "https://coursera.org/share/20677ff2a208b3e6fe2b73f4ed8afcab",
+      alt_name: "University of Washington",
       color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
     },
   ],
 };
@@ -744,19 +714,18 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://ashutoshhathidara.wordpress.com",
+    link: "https://parthtripathi.wordpress.com",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+    subtitle: "Indore, Madhya Pradesh - 452009",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://goo.gl/maps/EhF6g51Z3UTmJ8Xe8",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 8320758513",
+    subtitle: "+91 9981915424",
   },
 };
 

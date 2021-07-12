@@ -19,6 +19,7 @@
     "chart.js": "^2.9.3",
     "fs": "0.0.1-security",
     "gh-pages": "^2.1.1",
+    "google-maps-react": "^2.0.6",
     "graphql": "^14.5.8",
     "lottie-web": "^5.7.11",
     "node-fetch": "^2.6.0",

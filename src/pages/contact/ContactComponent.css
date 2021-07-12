@@ -44,6 +44,7 @@
 
 .contact-heading-text-div {
   text-align: center;
+  margin-top: 90px;
 }
 
 .blog-heading-text-div {
@@ -52,6 +53,7 @@
 
 .address-heading-text-div {
   text-align: center;
+  margin-top: 90px;
 }
 
 .contact-heading-img-div > * {
@@ -123,7 +125,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 0;
+  margin-left: 8px;
 }
 
 @media (max-width: 1380px) {
@@ -189,5 +191,10 @@
     margin-right: 0px;
     line-height: normal;
     text-align: center;
+  }
+
+  .contact-heading-text-div {
+    text-align: center;
+    margin-top: 0px;
   }
 }

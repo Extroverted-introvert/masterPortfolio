@@ -32,6 +32,7 @@
 }
 
 .greeting-text {
+  color: #dd9207;
   margin-top: 20px;
   font-size: 70px;
   line-height: 1.1;
@@ -64,6 +65,9 @@
   max-width: 100%;
   height: auto;
 }
+.portfolio-repo-btn-div {
+  display: flex;
+}
 
 /* Media Query */
 @media (max-width: 1380px) {
@@ -75,6 +79,9 @@
   }
 }
 @media (max-width: 768px) {
+  .main {
+    margin-top: 0rem;
+  }
   .button-greeting-div {
     justify-content: space-around;
   }
@@ -106,7 +113,7 @@
   .portfolio-repo-btn-div {
     justify-content: space-around;
     display: flex;
-    margin-top: 10;
+    margin-top: 10px;
   }
 }
 .entities {

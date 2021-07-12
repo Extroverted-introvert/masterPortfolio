@@ -8,7 +8,7 @@ import BlogsImg from "./BlogsImg";
 import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
+import { contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -26,7 +26,7 @@ class Contact extends Component {
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 {/* <img
-											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
+											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
                 <AddressImg theme={theme} />
@@ -47,9 +47,9 @@ class Contact extends Component {
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
-                    text="See My Resume"
+                    text="Drop a mail"
                     newTab={true}
-                    href={greeting.resumeLink}
+                    href="mailto:parth.tripathi17@gmail.com"
                     theme={theme}
                   />
                 </div>
@@ -79,7 +79,7 @@ class Contact extends Component {
               </div>
               <div className="blog-heading-img-div">
                 {/* <img
-											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
+											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
                 <BlogsImg theme={theme} />
@@ -90,7 +90,7 @@ class Contact extends Component {
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
                 <img
-                  src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                  src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
                   alt="Profile Pic"
                 />
               </div>

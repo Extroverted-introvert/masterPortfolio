@@ -1,5 +1,7 @@
+require("dotenv").config();
+
 const openSource = {
-  githubConvertedToken: "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",
+  githubConvertedToken: process.env.GITHUB_TOKEN,
   githubUserName: "Extroverted-introvert",
 };
 console.log(openSource.githubConvertedToken);

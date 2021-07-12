@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
+// eslint-disable-next-line
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
@@ -22,7 +23,7 @@ class Education extends Component {
             <div className="heading-div">
               <div className="heading-img-div">
                 {/* <img
-									src={require("../../assests/images/education.svg")}
+									src={require("../../assets/images/education.svg")}
 									alt=""
 								/> */}
                 <EducationImg theme={theme} />

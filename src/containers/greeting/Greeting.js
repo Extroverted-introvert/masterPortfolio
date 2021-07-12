@@ -4,6 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
+// eslint-disable-next-line
 import FeelingProud from "./FeelingProud";
 import Typewriter from "typewriter-effect";
 import GreetImg from "./GreetImg";
@@ -16,26 +17,21 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text" style={{ color: theme.text }}>
-                {greeting.greet}
-              </h1>
+              <h1 className="greeting-text">{greeting.greet}</h1>
               <h1 className="greeting-name" style={{ color: theme.text }}>
                 I'm{" "}
                 <mark data-entity="person" style={{ color: theme.text }}>
                   {greeting.title}
                 </mark>
               </h1>
-              <h2 className="greeting-typewriter" style={{ color: theme.text }}>
+              <h2 className="greeting-typewriter" style={{ color: "#1179f7" }}>
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Data Scientist(NLP)")
+                      .typeString("Data Scientist")
                       .pauseFor(200)
                       .deleteAll()
                       .typeString("Web Developer")
-                      .pauseFor(200)
-                      .deleteAll()
-                      .typeString("UI/UX Designer")
                       .pauseFor(200)
                       .deleteAll()
                       .typeString("IT Engineer")
@@ -81,7 +77,7 @@ export default function Greeting(props) {
           <div className="greeting-image-div">
             {/* <img
 							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
+							src={require("../../assets/images/feelingProud.svg")}
 						></img> */}
             {/* <FeelingProud theme={theme} /> use for static image rendering*/}
             <GreetImg />
