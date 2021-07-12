@@ -1,8 +1,11 @@
-const openSource = {
-  githubConvertedToken: "Your Github Token Here.",
-  githubUserName: "Your Github Username Here.",
-};
+require("dotenv").config();
 
+const openSource = {
+  githubConvertedToken: process.env.GITHUB_TOKEN,
+  githubUserName: "Extroverted-introvert",
+};
+console.log(openSource.githubConvertedToken);
+console.log(openSource.githubUserName);
 const fetch = require("node-fetch");
 var fs = require("fs");
 

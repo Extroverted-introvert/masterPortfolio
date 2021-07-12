@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
+// eslint-disable-next-line
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
@@ -9,6 +10,7 @@ import EducationImg from "./EducationImg";
 import { competitiveSites } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
+import Resume from "./Resume";
 
 class Education extends Component {
   render() {
@@ -21,14 +23,14 @@ class Education extends Component {
             <div className="heading-div">
               <div className="heading-img-div">
                 {/* <img
-									src={require("../../assests/images/education.svg")}
+									src={require("../../assets/images/education.svg")}
 									alt=""
 								/> */}
                 <EducationImg theme={theme} />
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text" style={{ color: theme.text }}>
-                  Education
+                  Experience &#38; Education
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
                   Basic Qualification and Certifcations
@@ -37,7 +39,7 @@ class Education extends Component {
               </div>
             </div>
           </Fade>
-          <Educations theme={this.props.theme} />
+          <Resume />
           <Certifications theme={this.props.theme} />
         </div>
         <Footer theme={this.props.theme} />
