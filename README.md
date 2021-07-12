@@ -30,7 +30,7 @@
 ✔️ Projects\
 ✔️ Contact\
 <br>
-To view a live example, **[click here](https://rohankokkula.netlify.app/)**
+To view a live example, **[click here](https://parthtripathi.netlify.app/)**
 
 # Clone And Use 📋
 
