@@ -10,11 +10,11 @@
   <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
   <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square?style=flat-square" /></a>
   <br/>
-  <a href="https://app.netlify.com/sites/ashutosh1919portfolio/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/abf59f82-3251-4040-b24c-949b86691642/deploy-status?style=flat-square" /></a>
+  <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/abf59f82-3251-4040-b24c-949b86691642/deploy-status?style=flat-square" /></a>
   <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Build Status" src="http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square?style=flat-square" /></a>
-  <a href="https://github.com/ashutosh1919/masterPortfolio/commits/master"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
+  <img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
   <a href="http://badges.mit-license.org/"><img alt="Website" src="https://img.shields.io/badge/website-up-yellow?style=flat-square" /></a>
-  <a href="https://ashutoshhathidara.com/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
+  <img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
   <a href="https://img.shields.io/badge/price-free-ff69b4"><img alt="Price" src="https://img.shields.io/badge/price-free-ff69b4?style=flat-square" /></a>
 </p>
 <p align="center"> 
@@ -30,7 +30,7 @@
 ✔️ Projects\
 ✔️ Contact\
 <br>
-To view a live example, **[click here](https://rohankokkula.netlify.app/)**
+To view a live example, **[click here](https://parthtripathi.netlify.app/)**
 
 # Clone And Use 📋
 
@@ -126,7 +126,7 @@ So basically I demonstrated 2 types of visual graphics.
 
 ### Splash Logo
 
-Note here that if you click [my portfolio](https://rohankokkula.netlify.app), you can see the logo at the beginning.
+Note here that if you click [my portfolio](https://parthtripathi.netlify.app/), you can see the logo at the beginning.
 
 - You can open `src/portfolio.js` file and at the top of this file you will see `settings` component as below:
 - ```python
@@ -181,4 +181,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 # References 👏🏻
 
-- Some Design and Implementation Ideas are taken from [Ashutosh Hathidara's Portfolio Project](https://github.com/ashutosh1919/masterPortfolio) & [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio)
+- This project extends Design and Implementation Ideas taken from [Ashutosh Hathidara's Portfolio Project](https://github.com/ashutosh1919/masterPortfolio) and [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio)
+- Sincere thanks to all of them
+- Spread the Opensource love !!

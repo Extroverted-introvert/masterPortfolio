@@ -27,18 +27,9 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/1cyMzKjRDwFDRQgB9WLq3jqbUXjVXJZAs/view?usp=sharing",
-  // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "Github",
@@ -357,8 +348,8 @@ const resumeleft = {
     title: ["Experience"],
     data: [
       {
-        title: "Jr. Machine Learning",
-        subtitle: "Thinkbiz Technology Pvt. Ltd.",
+        title: "Sr. Python / AI Developer",
+        subtitle: "Vebuin Pvt. Ltd.",
         date: "May 2020 - Present",
         content: [
           "Developed a state-of-art software solution responsible for processing Electricity Invoice PDFs from leading Japanese Electricity, Publication and Tele-Communication organizations.",
