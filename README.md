@@ -184,3 +184,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 - This project extends Design and Implementation Ideas taken from [Ashutosh Hathidara's Portfolio Project](https://github.com/ashutosh1919/masterPortfolio) and [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio)
 - Sincere thanks to all of them
 - Spread the Opensource love !!
+
+Node Version 12.18.0
