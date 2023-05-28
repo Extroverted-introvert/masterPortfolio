@@ -22,15 +22,15 @@ const greeting = {
   greet: "Namaste!",
   title: "Parth Tripathi",
   logo_name: "Parth Tripathi",
-  // nickname: "layman_brother",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1cyMzKjRDwFDRQgB9WLq3jqbUXjVXJZAs/view?usp=sharing",
+    "https://drive.google.com/file/d/1tn39dgrY7x4LIBNyDrpjmc4-_X5GACzR/view?usp=sharing",
+  atsresumeLink:
+    "https://drive.google.com/file/d/1Mv9w099rnaInZpKLaqoRKTQZ5bNS_VxS/view?usp=sharing",
 };
 
 const socialMediaLinks = [
-
   {
     name: "Github",
     link: "https://github.com/Extroverted-introvert",
@@ -348,27 +348,47 @@ const resumeleft = {
     title: ["Experience"],
     data: [
       {
+        title: "Artificial Intelligence - Business Intelligence Team Leader",
+        subtitle: "Vebuin Pvt. Ltd.",
+        date: "December 2022 - Present",
+        content: [
+          "Leveraged the latest ChatGPT models to improve invoice and receipt entity extraction using prompt engineering and served the solution in serverless fashion to improve accessibility by 200%",
+          "Developed SQL scripts, Card Designs and Dashboards for Business Overview Dashboards and automated the creation process by serving the dashboard creation via an AWS Lambda Endpoint",
+          "Implemented a custom Rotated Masked RCNN Model training pipeline that enables user Annotation on the invoice data which can be used to train updated models which enables 500% faster model development and deployment",
+        ],
+      },
+      {
         title: "Sr. Python / AI Developer",
         subtitle: "Vebuin Pvt. Ltd.",
-        date: "May 2020 - Present",
+        date: "May 2021 - November 2022",
         content: [
+          "Optimised the Entity Extraction module in in-house product “Smartflow” by updating the model used, setting up a proper data annotation and validation pipeline and finally migrating the model to AWS Sagemaker which lead to up to 200% faster predictions.",
+          "Supervised Creation of an Contract Document Entity Extraction pipeline using Logistic Regression Models, Custom Named Entity Recognition and Google Vision OCR deployed on Django for leading consulting firm Prored Partners.",
+          "Created an Invoice Classification and Entity Extraction pipeline using Rotated Masked RCNN Model and Google Vision served using a multi server asynchronous system of API and AI servers built in Django for Prored Partners.",
+          "Created a Proof of concept pipeline to create a custom NER System with Spacy using data crawled using Selenium.",
+          "Created Serverless module on AWS Lambda to ingest sensor data and use it perform regression operations on equipment metrics to quantify efficiency for Jera Energy.",
+          "Created a Proof of Concept for Industrial Equipment Lifecycle Prediction using Full Rank Variational Inference in AWS Sagemaker for Jera Energy.",
+        ],
+      },
+      {
+        title: "Jr. Python / AI Developer",
+        subtitle: "Vebuin Pvt. Ltd.",
+        date: "May 2020 - April 2021",
+        content: [
+          "Deployed an Invoice Entity Extraction pipeline fine tuning open source implementation of RCNN model, Google Vision OCR api and Flask server to hasten invoice reimbursement process by 50% for In-house product /“Smartflow/”",
+          "Created Classification pipeline using Word Embeddings, Logistic Regression and Shallow Fast Forward Neural Network to improve f1 score by 30% on an extremely unbalanced dataset for In-house product “Smartflow”",
+          "Performed Data Analytics on warehouse dataset of leading clothing manufacturer Right-On to identify and quantify the loss generated due to logistics mismanagement.",
           "Developed a state-of-art software solution responsible for processing Electricity Invoice PDFs from leading Japanese Electricity, Publication and Tele-Communication organizations.",
-          "Developed and improved an in-house Japanese Invoice recognition and processing software based on RCNN model.",
-          "Worked extensively to create Japanese NLP projects from scratch, ranging from NER(Named Entity recognition) to Transformer based Question-Answering module.",
           "Developed a Django based CRUD supported platform to demonstrate various Data Science methodologies.",
         ],
-        //         Developed a Django based platform to demonstrate various Data Science methodologies.
-        // Worked extensively on Japanese NLP projects, ranging from NER(Named Entity recognition) to Transformer based Question-Answering module.
-        // Worked on an in-house Japanese Invoice recognition and processing software based on RCNN model.
-        // Developed a software solution responsible for processing Electricity Invoice PDFs from leading Japanese organizations.
       },
       {
         title: "Data Analyst Intern",
         subtitle: "DRM Office, Western Central Railway",
         date: "June 2019 - July 2019",
         content: [
-          "Worked on Data from railway maintained Track Management System to generate clear Visual insights on Data Statistics.",
-          "Developed a machine Learning model using above data to facilitate maintenance scheduling of railway tracks.",
+          "Successfully Delivered a Maintenance Job Prediction model based on data from Track Management System, an Internal Internal platform used by Western Central Railway to track maintenance activities and monitor railway track conditions.",
+          "Prepared posters and pamphlets to raise awareness regarding cleanliness for Annual Cleanliness Summit 2019",
         ],
         //         Worked on Data from in-house maintained Track Management System to generate clear visual insights on Data Statistics.
         // Developed a machine Learning model using above data to facilitate maintenance scheduling of railway tracks.
@@ -397,7 +417,12 @@ const resumeright = {
           title: "Bachelor of Engineering in Information Technology",
           subtitle: "Jabalpur Engineering College, Jabalpur",
           date: "2016 - 2020",
-          content: ["Graduated with First Class Distinction", "CGPA: 7.49"],
+          content: [
+            "Graduated with First Class Distinction",
+            "CGPA: 7.49",
+            "Trainer at induction process at Campus Artificial Intelligence Labs responsible for introducing incoming student body to various computer science clubs : ACM (CSE), JLUG (Linux)",
+            "Alumni Point of Contact for the 50th Anniversary (MILAN) of our prestigious educational institute.",
+          ],
         },
         {
           title: "Higher Secondary Certificate [HSC]",
@@ -423,9 +448,9 @@ const resumeright = {
         {
           title: "Achievements",
           content: [
-            "Winner IIT-Bombay 2020 Techfest - Dremio Buisness Insight",
-            "Winner (Complex Problem) Smart India Hackathon-2019",
-            "Founding Member of JEC Literary Club",
+            "Winner - Twilio Integration  MLH Hackathon: Developed a simple app using Flask Framework with message alert integration for user actions and deployed on Heroku",
+            "Winner IIT-Bombay 2020 Techfest - Dremio Business Insight: Implemented a solution utilising features of Dreamio Data Lake tool to ingest streaming data from various sources, perform pre-processing on the ingested data and render the insights generated to the end user using Tableau ",
+            "Winner (Complex Problem) Smart India Hackathon-2019: Developed a Django Solution for Coal India Limited  that is used for assigning and tracking Unique Identifications to Coal Samples in a secure way to ensure Double Blinding of Coal Samples sent for quality testing and cost estimation",
           ],
         },
       ],
@@ -705,18 +730,18 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://parthtripathi.wordpress.com",
+    link: "https://just-a-blog.netlify.app/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Indore, Madhya Pradesh - 452009",
+    subtitle: "Tsukuba, Ibaraki - 305-0061",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/EhF6g51Z3UTmJ8Xe8",
+    location_map_link: "https://goo.gl/maps/oJXDBJfSFzg2uxw49",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 9981915424",
+    subtitle: "+81-70-8450-8970, +91-99-8191-5424",
   },
 };
 

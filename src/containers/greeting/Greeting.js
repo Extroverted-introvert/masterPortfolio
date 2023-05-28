@@ -70,6 +70,14 @@ export default function Greeting(props) {
                   theme={theme}
                 />
               </div>
+              <div className="portfolio-repo-btn-div">
+                <Button
+                  text="ATS Compatible Resume 🤖"
+                  newTab={true}
+                  href={greeting.atsresumeLink}
+                  theme={theme}
+                />
+              </div>
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
               <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
