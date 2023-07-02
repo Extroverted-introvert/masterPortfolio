@@ -498,6 +498,24 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Amazon Certified Cloud Practioner",
+      subtitle: "- Amazon Web Services",
+      logo_path: "aws.png",
+      certificate_link:
+        "https://www.credly.com/badges/1f1536f7-9d02-403c-83bd-a6a96bddb27f/public_url",
+      alt_name: "Amazon Web Services",
+      color_code: "#D83B0199",
+    },
+    {
+      title: "Applied Data Science Lab",
+      subtitle: "- WorldQunat University",
+      logo_path: "WQU_logo_color.png",
+      certificate_link:
+        "https://www.credly.com/badges/3e1c7c45-b6b3-4b6b-a0ea-d768fd309790/public_url",
+      alt_name: "World Quant University",
+      color_code: "#1f54cb99",
+    },
+    {
       title: "Python For Everbody",
       subtitle: "- Charles Severance",
       logo_path: "University-of-Michigan-Logo.png",
@@ -536,11 +554,11 @@ const certifications = {
     {
       title: "Data Science",
       subtitle: "- Rav Ahuja",
-      logo_path: "ibm_logo.png",
+      logo_path: "ibm-logo.png",
       certificate_link:
         "https://coursera.org/share/a0a0a8e8f37533c917745e8ae03515e3",
       alt_name: "IBM",
-      color_code: "#1F70C199",
+      color_code: "#5c90c399",
     },
     {
       title: "AWS Fundamentals",
@@ -554,11 +572,11 @@ const certifications = {
     {
       title: "Advanced Data Science",
       subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
+      logo_path: "ibm-logo.png",
       certificate_link:
         "https://coursera.org/share/8d1444a90fdddad4e3e5e7174e1e4fdd",
       alt_name: "IBM",
-      color_code: "#1F70C199",
+      color_code: "#5c90c399",
     },
     {
       title: "Business English Communication Skills",
