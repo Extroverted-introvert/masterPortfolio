@@ -21,6 +21,15 @@ class Certifications extends Component {
             return <CertificationCard certificate={cert} theme={theme} />;
           })}
         </div>
+        <p className="certs-header">
+          <a
+            className="badges-text"
+            style={{ color: theme.text }}
+            href="https://www.credly.com/users/parthtripathi"
+          >
+            View all Certifications....
+          </a>
+        </p>
       </div>
     );
   }
