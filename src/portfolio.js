@@ -432,7 +432,7 @@ const resumeright = {
           date: "2013 - 2015",
           content: [
             "Higher Secondary Certificate [HSC] : Precentage: 87.4%",
-            "Secondary School Certificate [HSC] : CGPA: 9.4",
+            "Secondary School Certificate [SSC] : CGPA: 9.4",
           ],
         },
       ],
