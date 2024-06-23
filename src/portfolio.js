@@ -25,11 +25,11 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1mIX13CVX5Ucebcvw6AH1IG24vpp7oh2z/view?usp=drive_link",
+    "https://drive.google.com/file/d/1s_SEuhn9uEamqNZPN0tEXYfyzCNRxt1r/view?usp=drive_link",
   atsresumeLink:
-    "https://drive.google.com/file/d/1Q2pj4NNsHRw4cz34VRZG-SA27YGzKk8M/view?usp=drive_link",
+    "https://drive.google.com/file/d/1J_hT49ls6uovEXSYZt2031Fl7E2luRVc/view?usp=drive_link",
   japaneseresumeLink:
-    "https://drive.google.com/file/d/18Kdtjq-D4t3Nmp_4qmpAYvefzxU2FUH4/view?usp=drive_link",
+    "https://drive.google.com/file/d/1glzzkvr-7QkznDVmxY4gY7oab3-IGhLH/view?usp=drive_link",
 };
 
 const socialMediaLinks = [
@@ -350,13 +350,30 @@ const resumeleft = {
     title: ["Experience"],
     data: [
       {
+        title: "Sr. Python - DevOps Engineer",
+        subtitle: "HCL Japan Ltd.",
+        date: "March 2024 - Present",
+        content: [
+          "Managed maintenance of Django-based Administrative and DevOps web application at Sony Japan, serving 1000 active users.",
+          "Worked on DevOps pipeline  with Gerrit, Jenkins and Azure Devops facilitating end-to-end package delivery and automated testing for Sony TV modules.",
+          "Worked on visualisation pipeline using Azure functions, Azure Data Lake and Microsoft Power BI to craft visualisations for monitoring pipeline and resource utilisation.",
+          "Oversaw maintenance of physical in-house server farm used to perform testing and debugging of Sony TV firmware - Android software releases,",
+        ],
+      },
+      {
         title: "Artificial Intelligence - Business Intelligence Team Leader",
         subtitle: "Vebuin Pvt. Ltd.",
-        date: "December 2022 - Present",
+        date: "December 2022 - February 2024",
         content: [
-          "Leveraged the latest ChatGPT models to improve invoice and receipt entity extraction using prompt engineering and served the solution in serverless fashion to improve accessibility by 200%",
+          "Led the development and implementation of a Machine Learning Operations (MLOps) proof of concept for Jera Energy, resulting in a versatile pipeline that supports various machine learning use cases. The updated pipeline significantly reduced experiment-to-deployment time by 500% and enhanced monitoring and evaluation processes.",
+          "Led a team in the creation of a solution for text extraction from documents, utilising the Azure Document Intelligence API and OpenAI Large Language Models (LLM) with the Langchain framework. Implemented prompt engineering, improving performance by 200%.",
+          "Orchestrated the development of a Custom Excel-to-PDF solution, leveraging Google Sheets and Drive APIs to update user Excel templates with custom data and export them to PDF.",
+          "Oversaw the creation of a CSV export function in our in-house product, utilising AWS serverless Lambda, resulting in a 1000% improvement in performance.",
+          "Took responsibility for Database sanitization and GitFlow management for a team of 15 developers, ensuring efficient collaboration and version control.",
+          "Developed a Label Text comparison tool for BELC, a Mega retail chain, enabling the comparison of label designs for their products. This tool improved the evaluation process efficiency by 300%.",
+          "Engineered an Allergy Detection Zero Shot Classification tool for BELC, powered by LLM embeddings. This tool detects allergies in food products based on ingredient information, enhancing product safety measures.",
           "Developed SQL scripts, Card Designs and Dashboards for Business Overview Dashboards and automated the creation process by serving the dashboard creation via an AWS Lambda Endpoint",
-          "Implemented a custom Rotated Masked RCNN Model training pipeline that enables user Annotation on the invoice data which can be used to train updated models which enables 500% faster model development and deployment",
+          "Implemented a custom Rotated Masked RCNN Model training pipeline that enables user Annotation on the invoice data which can be used to train updated models which enables 500% faster model development and deployment.",
         ],
       },
       {
@@ -364,8 +381,8 @@ const resumeleft = {
         subtitle: "Vebuin Pvt. Ltd.",
         date: "May 2021 - November 2022",
         content: [
-          "Optimised the Entity Extraction module in in-house product “Smartflow” by updating the model used, setting up a proper data annotation and validation pipeline and finally migrating the model to AWS Sagemaker which lead to up to 200% faster predictions.",
-          "Supervised Creation of an Contract Document Entity Extraction pipeline using Logistic Regression Models, Custom Named Entity Recognition and Google Vision OCR deployed on Django for leading consulting firm Prored Partners.",
+          "Optimised the Entity Extraction module in the in-house product “Smartflow” by updating the model used, setting up a proper data annotation and validation pipeline and finally migrating the model to AWS Sagemaker which lead to up to 200% faster predictions.",
+          "Supervised Creation of a Contract Document Entity Extraction pipeline using Logistic Regression Models, Custom Named Entity Recognition and Google Vision OCR deployed on Django for leading consulting firm Prored Partners.",
           "Created an Invoice Classification and Entity Extraction pipeline using Rotated Masked RCNN Model and Google Vision served using a multi server asynchronous system of API and AI servers built in Django for Prored Partners.",
           "Created a Proof of concept pipeline to create a custom NER System with Spacy using data crawled using Selenium.",
           "Created Serverless module on AWS Lambda to ingest sensor data and use it perform regression operations on equipment metrics to quantify efficiency for Jera Energy.",
@@ -377,11 +394,9 @@ const resumeleft = {
         subtitle: "Vebuin Pvt. Ltd.",
         date: "May 2020 - April 2021",
         content: [
-          "Deployed an Invoice Entity Extraction pipeline fine tuning open source implementation of RCNN model, Google Vision OCR api and Flask server to hasten invoice reimbursement process by 50% for In-house product /“Smartflow/”",
-          "Created Classification pipeline using Word Embeddings, Logistic Regression and Shallow Fast Forward Neural Network to improve f1 score by 30% on an extremely unbalanced dataset for In-house product “Smartflow”",
-          "Performed Data Analytics on warehouse dataset of leading clothing manufacturer Right-On to identify and quantify the loss generated due to logistics mismanagement.",
-          "Developed a state-of-art software solution responsible for processing Electricity Invoice PDFs from leading Japanese Electricity, Publication and Tele-Communication organizations.",
-          "Developed a Django based CRUD supported platform to demonstrate various Data Science methodologies.",
+          "Deployed an Invoice Entity Extraction pipeline fine tuning open source implementation of RCNN model, Google Vision OCR api and Flask server to hasten invoice reimbursement process by 50% for the In-house product “Smartflow”",
+          "Created Classification pipeline using Word Embeddings, Logistic Regression and Shallow Fast Forward Neural Network to improve f1 score by 30% on an extremely unbalanced dataset for the In-house product “Smartflow”",
+          "Performed Data Analytics on warehouse dataset of the leading clothing manufacturer Right-On to identify and quantify the loss generated due to logistics mismanagement.",
         ],
       },
       {
@@ -440,13 +455,6 @@ const resumeright = {
     {
       title: ["Achievements"],
       data: [
-        // {
-        //   title: "Ranks",
-        //   content: [
-        //     "#135/854 in Summer Analytics Kaggle Competition by IITG",
-        //     "#113/5064 in CV-NLP Hackathon by HackerEarth",
-        //   ],
-        // },
         {
           title: "Achievements",
           content: [
@@ -457,48 +465,42 @@ const resumeright = {
         },
       ],
     },
-    // {
-    //   title: ["Freelance Work"],
-    //   data: [
-    //     {
-    //       title: "Consultancy Website",
-    //       subtitle: "kidsworldeducationconsultants.com",
-    //       content: [
-    //         "Created and hosted a website for consultancy providers in Kids Education Domain",
-    //       ],
-    //     },
-    //     {
-    //       title: "Portfolio Website",
-    //       subtitle: "pranavphulware.netlify.app",
-    //       content: [
-    //         "Built a personal Filmography portfolio for a friend and later hosted it at Netlify",
-    //       ],
-    //     },
-    //   ],
-    // },
   ],
 };
 
 const degrees = {
-  degrees: [
-    // {
-    //   title: "Indian Institute of Information Technology Kurnool",
-    //   subtitle: "B.Tech. in Computer Engineering",
-    //   logo_path: "iiitk_logo.png",
-    //   alt_name: "IIITDM Kurnool",
-    //   duration: "2016 - Present",
-    //   descriptions: [
-    //     "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-    //     "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-    //     "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
-    //   ],
-    //   website_link: "http://iiitk.ac.in",
-    // },
-  ],
+  degrees: [],
 };
 
 const certifications = {
   certifications: [
+    {
+      title: "Microsoft Certified: Azure AI Engineer Associate",
+      subtitle: "- Microsoft",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://learn.microsoft.com/api/credentials/share/en-us/ParthTripathi-2692/B3F2A0308E5CB513?sharingId=CE577FEA91EAA44F",
+      alt_name: "Microsoft",
+      color_code: "#1f54cb99",
+    },
+    {
+      title: "Microsoft Certified: Azure AI Fundamentals",
+      subtitle: "- Microsoft",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://learn.microsoft.com/api/credentials/share/en-us/ParthTripathi-2692/CCC125F7A7A5F7FF?sharingId=CE577FEA91EAA44F",
+      alt_name: "Microsoft",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Microsoft Certified: Azure Fundamentals",
+      subtitle: "- Microsoft",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://learn.microsoft.com/api/credentials/share/en-us/ParthTripathi-2692/D927B99094E53920?sharingId=CE577FEA91EAA44F",
+      alt_name: "Microsoft",
+      color_code: "#1f54cb99",
+    },
     {
       title: "Amazon Certified Cloud Practioner",
       subtitle: "- Amazon Web Services",
@@ -581,6 +583,15 @@ const certifications = {
       color_code: "#5c90c399",
     },
     {
+      title: "Japanese Language Profiency Test",
+      subtitle: "- Japan Foundation",
+      logo_path: "jlptlogo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1Z8eyARKT6rckpJztmCyCMbOVtDPGLFv1/view?usp=drive_link",
+      alt_name: "Japan Foundation",
+      color_code: "#0C9D5899",
+    },
+    {
       title: "Business English Communication Skills",
       subtitle: "- University of Washington",
       logo_path: "university-of-washington.png",
@@ -603,128 +614,49 @@ const experience = {
     {
       title: "Work",
       experiences: [
-        {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
+        // {
+        //   title: "Associate AI Engineer",
+        //   company: "Legato Health Technology",
+        //   company_url: "https://legatohealthtech.com/",
+        //   logo_path: "legato_logo.png",
+        //   duration: "June 2020 - PRESENT",
+        //   location: "Hyderabad, Telangana",
+        //   description:
+        //     "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+        //   color: "#0879bf",
+        // },
       ],
     },
     {
       title: "Internships",
       experiences: [
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
+        // {
+        //   title: "Data Science Research Intern",
+        //   company: "Delhivery Pvt. Ltd.",
+        //   company_url: "https://www.delhivery.com/",
+        //   logo_path: "delhivery_logo.png",
+        //   duration: "May 2019 - Sept 2019",
+        //   location: "Gurgaon, Haryana",
+        //   description:
+        //     "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+        //   color: "#ee3c26",
+        // },
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
+        // {
+        //   title: "Developer Program Member",
+        //   company: "Github",
+        //   company_url: "https://github.com/",
+        //   logo_path: "github_logo.png",
+        //   duration: "July 2019 - PRESENT",
+        //   location: "Work From Home",
+        //   description:
+        //     "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+        //   color: "#181717",
+        // },
       ],
     },
   ],
