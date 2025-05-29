@@ -354,10 +354,10 @@ const resumeleft = {
         subtitle: "HCL Japan Ltd.",
         date: "March 2024 - Present",
         content: [
-          "Managed maintenance of Django-based Administrative and DevOps web application at Sony Japan, serving 1000 active users.",
-          "Worked on DevOps pipeline  with Gerrit, Jenkins and Azure Devops facilitating end-to-end package delivery and automated testing for Sony TV modules.",
+          "Managed maintenance of Django-based Administrative and DevOps web application at a major Japanese TV Vendor, serving 1000 active users.",
+          "Worked on DevOps pipeline  with Gerrit, Jenkins and Azure Devops facilitating end-to-end package delivery and automated testing for Japanese TV modules.",
           "Worked on visualisation pipeline using Azure functions, Azure Data Lake and Microsoft Power BI to craft visualisations for monitoring pipeline and resource utilisation.",
-          "Oversaw maintenance of physical in-house server farm used to perform testing and debugging of Sony TV firmware - Android software releases,",
+          "Oversaw maintenance of physical in-house server farm used to perform testing and debugging of Japanese TV firmware - Android software releases,",
         ],
       },
       {
