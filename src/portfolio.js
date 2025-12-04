@@ -25,11 +25,13 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1C9Eqxsk8EciOC24NibUsUd9f3jqr9KOy/view?usp=sharing",
+    "https://drive.google.com/file/d/1kIysqO7UEcxavL8bpxlsgiq-FIGylKhO/view?usp=sharing",
   atsresumeLink:
-    "https://drive.google.com/file/d/1i189n8o3xBxMYWve76qo3sHYnFbDDFiB/view?usp=sharing",
+    "https://drive.google.com/file/d/1jwVN3OI2zW2wl2DUAlRJlKG7-hHsdTGi/view?usp=sharing",
   japaneseresumeLink:
-    "https://drive.google.com/file/d/1sqsbrp1t-3PJPJKrzU6VlHUuHW1lHLL3/view?usp=sharing",
+    "https://drive.google.com/file/d/180P2Zin_Gr5x1YCTFxOqQGYEAffE_O_z/view?usp=sharing",
+  japaneselargeresumeLink:
+    "https://drive.google.com/file/d/1NS8RpEmIdRviZY74peUIvIAnRY54tIcV/view?usp=sharing",
 };
 
 const socialMediaLinks = [
