@@ -80,9 +80,17 @@ export default function Greeting(props) {
               </div>
               <div className="portfolio-repo-btn-div">
                 <Button
-                  text="Japanese Resume - 日本の履歴書"
+                  text="日本の履歴書"
                   newTab={true}
                   href={greeting.japaneseresumeLink}
+                  theme={theme}
+                />
+              </div>
+              <div className="portfolio-repo-btn-div">
+                <Button
+                  text="日本の職務経歴書"
+                  newTab={true}
+                  href={greeting.japaneselargeresumeLink}
                   theme={theme}
                 />
               </div>
